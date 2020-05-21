@@ -1,0 +1,73 @@
+html 
+{
+    font-family: 'Im Fell English', sans-serif;
+    background-color: #f8dfc1;
+}
+
+.main-article
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-block 
+{
+    column-count: 4;
+    column-rule: 1px solid black;
+}
+
+aside
+{
+    float: right;
+    height: 100%;
+    width: 7%;
+    word-break: break-all;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+h2::first-letter
+{
+    color: orange;
+    border: 1px solid brown;
+    background-color: red;
+}
+
+.mars-article
+{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px;
+}
+
+.mystery-article
+{
+    font-family: 'Inconsolata', sans-serif;
+}
+
+img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+p
+{
+    hyphens: auto;
+}
+
+q::before,
+q::after
+{
+    content: '«';
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+q::after
+{
+    content: '»';
+}
